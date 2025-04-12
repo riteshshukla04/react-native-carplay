@@ -7,11 +7,16 @@
     "ios": "react-native run-ios",
     "lint": "eslint .",
     "start": "react-native start",
-    "test": "jest"
+    "test": "jest",
+    "postinstall": "patch-package"
   },
   "dependencies": {
+    "patch-package": "^8.0.0",
     "react": "19.0.0",
-    "react-native": "0.79.0"
+    "react-native": "0.79.0",
+    "react-native-carplay": "^2.4.1-beta.0"
+   
+
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",
