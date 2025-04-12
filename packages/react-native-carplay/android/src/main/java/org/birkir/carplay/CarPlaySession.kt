@@ -85,6 +85,9 @@ class CarPlaySession(private val reactInstanceManager: ReactInstanceManager) : S
       val carModule = reactInstanceManager
         .currentReactContext?.getNativeModule(CarPlayModule::class.java)
       carModule!!.setCarContext(carContext, screen)
+      if (reactContext != null) {
+        reactContext.onHostResume(null)
+      }
       // timingModule!!.onHostResume()
 
     } catch (e: Exception) {
