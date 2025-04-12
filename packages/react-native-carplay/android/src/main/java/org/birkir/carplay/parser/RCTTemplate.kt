@@ -153,9 +153,9 @@ abstract class RCTTemplate(
     return ItemList.Builder().apply {
       for (i in 0 until items!!.size()) {
         if (type == "row") {
-          addItem(parseRowItem(items.getMap(i), i))
+          addItem(parseRowItem(items.getMap(i)!!, i))
         } else if (type == "grid") {
-          addItem(parseGridItem(items.getMap(i), i))
+          addItem(parseGridItem(items.getMap(i)!!, i))
         }
       }
     }.build()
@@ -187,15 +187,15 @@ abstract class RCTTemplate(
       if (titleVariants != null) {
         if (titleVariants.size() > 0) {
           setTitle(parseCarText(
-            titleVariants.getString(0),
+            titleVariants.getString(0)!!,
             metadata
           ))
         }
         if (titleVariants.size() > 1) {
-          setText(titleVariants.getString(1))
+          setText(titleVariants.getString(1)!!)
         }
       }
-      item.getMap("image")?.let { setImage(parseCarIcon(it)) }
+      item.getMap("image")?.let { setImage(parseCarIcon(it)!!) }
       setLoading(item.isLoading())
       setOnClickListener {
         eventEmitter.gridButtonPressed(id, index)
@@ -259,11 +259,11 @@ abstract class RCTTemplate(
     )
     props.getArray("texts")?.let {
       for (i in 0 until it.size()) {
-        builder.addText(it.getString(i))
+        builder.addText(it.getString(i)!!)
       }
     }
     props.getMap("image")?.let {
-      builder.setImage(parseCarIcon(it))
+      builder.setImage(parseCarIcon(it)!!)
     }
     try {
       val onPress = props.getInt("onPress")
@@ -306,7 +306,7 @@ abstract class RCTTemplate(
       }
       item.getArray("items")?.let {
         for (i in 0 until it.size()) {
-          addRow(parseRowItem(it.getMap(i), i))
+          addRow(parseRowItem(it.getMap(i)!!, i))
         }
       }
     }.build()
