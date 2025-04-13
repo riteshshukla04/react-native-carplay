@@ -1,0 +1,72 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="org.birkir.carplay" >
+4
+5    <uses-sdk
+6        android:minSdkVersion="29"
+6-->/Users/birkir/Projects/react-native-carplay/node_modules/react-native-carplay/android/src/main/AndroidManifestNew.xml
+7        android:targetSdkVersion="33" />
+7-->/Users/birkir/Projects/react-native-carplay/node_modules/react-native-carplay/android/src/main/AndroidManifestNew.xml
+8
+9    <uses-permission android:name="androidx.car.app.NAVIGATION_TEMPLATES" />
+9-->/Users/birkir/Projects/react-native-carplay/node_modules/react-native-carplay/android/src/main/AndroidManifestNew.xml:4:3-75
+9-->/Users/birkir/Projects/react-native-carplay/node_modules/react-native-carplay/android/src/main/AndroidManifestNew.xml:4:20-72
+10    <uses-permission android:name="androidx.car.app.MAP_TEMPLATES" />
+10-->/Users/birkir/Projects/react-native-carplay/node_modules/react-native-carplay/android/src/main/AndroidManifestNew.xml:5:3-68
+10-->/Users/birkir/Projects/react-native-carplay/node_modules/react-native-carplay/android/src/main/AndroidManifestNew.xml:5:20-65
+11    <uses-permission android:name="androidx.car.app.ACCESS_SURFACE" />
+11-->/Users/birkir/Projects/react-native-carplay/node_modules/react-native-carplay/android/src/main/AndroidManifestNew.xml:6:3-69
+11-->/Users/birkir/Projects/react-native-carplay/node_modules/react-native-carplay/android/src/main/AndroidManifestNew.xml:6:20-66
+12    <uses-permission android:name="android.permission.WAKE_LOCK" />
+12-->/Users/birkir/Projects/react-native-carplay/node_modules/react-native-carplay/android/src/main/AndroidManifestNew.xml:7:3-66
+12-->/Users/birkir/Projects/react-native-carplay/node_modules/react-native-carplay/android/src/main/AndroidManifestNew.xml:7:20-63
+13
+14    <application>
+14-->/Users/birkir/Projects/react-native-carplay/node_modules/react-native-carplay/android/src/main/AndroidManifestNew.xml:9:3-29:17
+15        <service
+15-->/Users/birkir/Projects/react-native-carplay/node_modules/react-native-carplay/android/src/main/AndroidManifestNew.xml:10:5-25:15
+16            android:name="org.birkir.carplay.CarPlayService"
+16-->/Users/birkir/Projects/react-native-carplay/node_modules/react-native-carplay/android/src/main/AndroidManifestNew.xml:11:7-37
+17            android:exported="true" >
+17-->/Users/birkir/Projects/react-native-carplay/node_modules/react-native-carplay/android/src/main/AndroidManifestNew.xml:12:7-30
+18            <intent-filter>
+18-->/Users/birkir/Projects/react-native-carplay/node_modules/react-native-carplay/android/src/main/AndroidManifestNew.xml:13:7-15:23
+19                <action android:name="org.birkir.carplay.APP_RELOAD" />
+19-->/Users/birkir/Projects/react-native-carplay/node_modules/react-native-carplay/android/src/main/AndroidManifestNew.xml:14:9-64
+19-->/Users/birkir/Projects/react-native-carplay/node_modules/react-native-carplay/android/src/main/AndroidManifestNew.xml:14:17-61
+20            </intent-filter>
+21            <intent-filter>
+21-->/Users/birkir/Projects/react-native-carplay/node_modules/react-native-carplay/android/src/main/AndroidManifestNew.xml:16:7-19:23
+22                <action android:name="androidx.car.app.CarAppService" />
+22-->/Users/birkir/Projects/react-native-carplay/node_modules/react-native-carplay/android/src/main/AndroidManifestNew.xml:17:9-65
+22-->/Users/birkir/Projects/react-native-carplay/node_modules/react-native-carplay/android/src/main/AndroidManifestNew.xml:17:17-62
+23
+24                <category android:name="androidx.car.app.category.NAVIGATION" />
+24-->/Users/birkir/Projects/react-native-carplay/node_modules/react-native-carplay/android/src/main/AndroidManifestNew.xml:18:9-73
+24-->/Users/birkir/Projects/react-native-carplay/node_modules/react-native-carplay/android/src/main/AndroidManifestNew.xml:18:19-70
+25            </intent-filter>
+26            <intent-filter>
+26-->/Users/birkir/Projects/react-native-carplay/node_modules/react-native-carplay/android/src/main/AndroidManifestNew.xml:20:7-24:23
+27                <action android:name="androidx.car.app.action.NAVIGATE" />
+27-->/Users/birkir/Projects/react-native-carplay/node_modules/react-native-carplay/android/src/main/AndroidManifestNew.xml:21:9-67
+27-->/Users/birkir/Projects/react-native-carplay/node_modules/react-native-carplay/android/src/main/AndroidManifestNew.xml:21:17-64
+28
+29                <category android:name="android.intent.category.DEFAULT" />
+29-->/Users/birkir/Projects/react-native-carplay/node_modules/react-native-carplay/android/src/main/AndroidManifestNew.xml:22:9-67
+29-->/Users/birkir/Projects/react-native-carplay/node_modules/react-native-carplay/android/src/main/AndroidManifestNew.xml:22:19-65
+30
+31                <data android:scheme="geo" />
+31-->/Users/birkir/Projects/react-native-carplay/node_modules/react-native-carplay/android/src/main/AndroidManifestNew.xml:23:9-38
+31-->/Users/birkir/Projects/react-native-carplay/node_modules/react-native-carplay/android/src/main/AndroidManifestNew.xml:23:15-35
+32            </intent-filter>
+33        </service>
+34
+35        <meta-data
+35-->/Users/birkir/Projects/react-native-carplay/node_modules/react-native-carplay/android/src/main/AndroidManifestNew.xml:26:5-28:27
+36            android:name="androidx.car.app.minCarApiLevel"
+36-->/Users/birkir/Projects/react-native-carplay/node_modules/react-native-carplay/android/src/main/AndroidManifestNew.xml:27:7-53
+37            android:value="1" />
+37-->/Users/birkir/Projects/react-native-carplay/node_modules/react-native-carplay/android/src/main/AndroidManifestNew.xml:28:7-24
+38    </application>
+39
+40</manifest>

@@ -1,0 +1,77 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/ritesh.shukla2/Desktop/openSource/AwesomeProject/node_modules/react-native-carplay/android/src/main/AndroidManifestNew.xml:1:1-30:12
+INJECTED from /Users/ritesh.shukla2/Desktop/openSource/AwesomeProject/node_modules/react-native-carplay/android/src/main/AndroidManifestNew.xml:1:1-30:12
+	package
+		ADDED from /Users/ritesh.shukla2/Desktop/openSource/AwesomeProject/node_modules/react-native-carplay/android/src/main/AndroidManifestNew.xml:2:3-31
+		INJECTED from /Users/ritesh.shukla2/Desktop/openSource/AwesomeProject/node_modules/react-native-carplay/android/src/main/AndroidManifestNew.xml
+	xmlns:android
+		ADDED from /Users/ritesh.shukla2/Desktop/openSource/AwesomeProject/node_modules/react-native-carplay/android/src/main/AndroidManifestNew.xml:1:11-69
+uses-permission#androidx.car.app.NAVIGATION_TEMPLATES
+ADDED from /Users/ritesh.shukla2/Desktop/openSource/AwesomeProject/node_modules/react-native-carplay/android/src/main/AndroidManifestNew.xml:4:3-75
+	android:name
+		ADDED from /Users/ritesh.shukla2/Desktop/openSource/AwesomeProject/node_modules/react-native-carplay/android/src/main/AndroidManifestNew.xml:4:20-72
+uses-permission#androidx.car.app.MAP_TEMPLATES
+ADDED from /Users/ritesh.shukla2/Desktop/openSource/AwesomeProject/node_modules/react-native-carplay/android/src/main/AndroidManifestNew.xml:5:3-68
+	android:name
+		ADDED from /Users/ritesh.shukla2/Desktop/openSource/AwesomeProject/node_modules/react-native-carplay/android/src/main/AndroidManifestNew.xml:5:20-65
+uses-permission#androidx.car.app.ACCESS_SURFACE
+ADDED from /Users/ritesh.shukla2/Desktop/openSource/AwesomeProject/node_modules/react-native-carplay/android/src/main/AndroidManifestNew.xml:6:3-69
+	android:name
+		ADDED from /Users/ritesh.shukla2/Desktop/openSource/AwesomeProject/node_modules/react-native-carplay/android/src/main/AndroidManifestNew.xml:6:20-66
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /Users/ritesh.shukla2/Desktop/openSource/AwesomeProject/node_modules/react-native-carplay/android/src/main/AndroidManifestNew.xml:7:3-66
+	android:name
+		ADDED from /Users/ritesh.shukla2/Desktop/openSource/AwesomeProject/node_modules/react-native-carplay/android/src/main/AndroidManifestNew.xml:7:20-63
+application
+ADDED from /Users/ritesh.shukla2/Desktop/openSource/AwesomeProject/node_modules/react-native-carplay/android/src/main/AndroidManifestNew.xml:9:3-29:17
+service#org.birkir.carplay.CarPlayService
+ADDED from /Users/ritesh.shukla2/Desktop/openSource/AwesomeProject/node_modules/react-native-carplay/android/src/main/AndroidManifestNew.xml:10:5-25:15
+	android:exported
+		ADDED from /Users/ritesh.shukla2/Desktop/openSource/AwesomeProject/node_modules/react-native-carplay/android/src/main/AndroidManifestNew.xml:12:7-30
+	android:name
+		ADDED from /Users/ritesh.shukla2/Desktop/openSource/AwesomeProject/node_modules/react-native-carplay/android/src/main/AndroidManifestNew.xml:11:7-37
+intent-filter#action:name:org.birkir.carplay.APP_RELOAD
+ADDED from /Users/ritesh.shukla2/Desktop/openSource/AwesomeProject/node_modules/react-native-carplay/android/src/main/AndroidManifestNew.xml:13:7-15:23
+action#org.birkir.carplay.APP_RELOAD
+ADDED from /Users/ritesh.shukla2/Desktop/openSource/AwesomeProject/node_modules/react-native-carplay/android/src/main/AndroidManifestNew.xml:14:9-64
+	android:name
+		ADDED from /Users/ritesh.shukla2/Desktop/openSource/AwesomeProject/node_modules/react-native-carplay/android/src/main/AndroidManifestNew.xml:14:17-61
+intent-filter#action:name:androidx.car.app.CarAppService+category:name:androidx.car.app.category.NAVIGATION
+ADDED from /Users/ritesh.shukla2/Desktop/openSource/AwesomeProject/node_modules/react-native-carplay/android/src/main/AndroidManifestNew.xml:16:7-19:23
+action#androidx.car.app.CarAppService
+ADDED from /Users/ritesh.shukla2/Desktop/openSource/AwesomeProject/node_modules/react-native-carplay/android/src/main/AndroidManifestNew.xml:17:9-65
+	android:name
+		ADDED from /Users/ritesh.shukla2/Desktop/openSource/AwesomeProject/node_modules/react-native-carplay/android/src/main/AndroidManifestNew.xml:17:17-62
+category#androidx.car.app.category.NAVIGATION
+ADDED from /Users/ritesh.shukla2/Desktop/openSource/AwesomeProject/node_modules/react-native-carplay/android/src/main/AndroidManifestNew.xml:18:9-73
+	android:name
+		ADDED from /Users/ritesh.shukla2/Desktop/openSource/AwesomeProject/node_modules/react-native-carplay/android/src/main/AndroidManifestNew.xml:18:19-70
+intent-filter#action:name:androidx.car.app.action.NAVIGATE+category:name:android.intent.category.DEFAULT+data:scheme:geo
+ADDED from /Users/ritesh.shukla2/Desktop/openSource/AwesomeProject/node_modules/react-native-carplay/android/src/main/AndroidManifestNew.xml:20:7-24:23
+action#androidx.car.app.action.NAVIGATE
+ADDED from /Users/ritesh.shukla2/Desktop/openSource/AwesomeProject/node_modules/react-native-carplay/android/src/main/AndroidManifestNew.xml:21:9-67
+	android:name
+		ADDED from /Users/ritesh.shukla2/Desktop/openSource/AwesomeProject/node_modules/react-native-carplay/android/src/main/AndroidManifestNew.xml:21:17-64
+category#android.intent.category.DEFAULT
+ADDED from /Users/ritesh.shukla2/Desktop/openSource/AwesomeProject/node_modules/react-native-carplay/android/src/main/AndroidManifestNew.xml:22:9-67
+	android:name
+		ADDED from /Users/ritesh.shukla2/Desktop/openSource/AwesomeProject/node_modules/react-native-carplay/android/src/main/AndroidManifestNew.xml:22:19-65
+data
+ADDED from /Users/ritesh.shukla2/Desktop/openSource/AwesomeProject/node_modules/react-native-carplay/android/src/main/AndroidManifestNew.xml:23:9-38
+	android:scheme
+		ADDED from /Users/ritesh.shukla2/Desktop/openSource/AwesomeProject/node_modules/react-native-carplay/android/src/main/AndroidManifestNew.xml:23:15-35
+meta-data#androidx.car.app.minCarApiLevel
+ADDED from /Users/ritesh.shukla2/Desktop/openSource/AwesomeProject/node_modules/react-native-carplay/android/src/main/AndroidManifestNew.xml:26:5-28:27
+	android:value
+		ADDED from /Users/ritesh.shukla2/Desktop/openSource/AwesomeProject/node_modules/react-native-carplay/android/src/main/AndroidManifestNew.xml:28:7-24
+	android:name
+		ADDED from /Users/ritesh.shukla2/Desktop/openSource/AwesomeProject/node_modules/react-native-carplay/android/src/main/AndroidManifestNew.xml:27:7-53
+uses-sdk
+INJECTED from /Users/ritesh.shukla2/Desktop/openSource/AwesomeProject/node_modules/react-native-carplay/android/src/main/AndroidManifestNew.xml reason: use-sdk injection requested
+INJECTED from /Users/ritesh.shukla2/Desktop/openSource/AwesomeProject/node_modules/react-native-carplay/android/src/main/AndroidManifestNew.xml
+INJECTED from /Users/ritesh.shukla2/Desktop/openSource/AwesomeProject/node_modules/react-native-carplay/android/src/main/AndroidManifestNew.xml
+	android:targetSdkVersion
+		INJECTED from /Users/ritesh.shukla2/Desktop/openSource/AwesomeProject/node_modules/react-native-carplay/android/src/main/AndroidManifestNew.xml
+	android:minSdkVersion
+		INJECTED from /Users/ritesh.shukla2/Desktop/openSource/AwesomeProject/node_modules/react-native-carplay/android/src/main/AndroidManifestNew.xml

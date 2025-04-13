@@ -1,0 +1,68 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="org.birkir.carplay" >
+4
+5    <uses-sdk android:minSdkVersion="24" />
+6
+7    <uses-permission android:name="androidx.car.app.NAVIGATION_TEMPLATES" />
+7-->/Users/ritesh.shukla2/Desktop/openSource/AwesomeProject/node_modules/react-native-carplay/android/src/main/AndroidManifestNew.xml:4:3-75
+7-->/Users/ritesh.shukla2/Desktop/openSource/AwesomeProject/node_modules/react-native-carplay/android/src/main/AndroidManifestNew.xml:4:20-72
+8    <uses-permission android:name="androidx.car.app.MAP_TEMPLATES" />
+8-->/Users/ritesh.shukla2/Desktop/openSource/AwesomeProject/node_modules/react-native-carplay/android/src/main/AndroidManifestNew.xml:5:3-68
+8-->/Users/ritesh.shukla2/Desktop/openSource/AwesomeProject/node_modules/react-native-carplay/android/src/main/AndroidManifestNew.xml:5:20-65
+9    <uses-permission android:name="androidx.car.app.ACCESS_SURFACE" />
+9-->/Users/ritesh.shukla2/Desktop/openSource/AwesomeProject/node_modules/react-native-carplay/android/src/main/AndroidManifestNew.xml:6:3-69
+9-->/Users/ritesh.shukla2/Desktop/openSource/AwesomeProject/node_modules/react-native-carplay/android/src/main/AndroidManifestNew.xml:6:20-66
+10    <uses-permission android:name="android.permission.WAKE_LOCK" />
+10-->/Users/ritesh.shukla2/Desktop/openSource/AwesomeProject/node_modules/react-native-carplay/android/src/main/AndroidManifestNew.xml:7:3-66
+10-->/Users/ritesh.shukla2/Desktop/openSource/AwesomeProject/node_modules/react-native-carplay/android/src/main/AndroidManifestNew.xml:7:20-63
+11
+12    <application>
+12-->/Users/ritesh.shukla2/Desktop/openSource/AwesomeProject/node_modules/react-native-carplay/android/src/main/AndroidManifestNew.xml:9:3-29:17
+13        <service
+13-->/Users/ritesh.shukla2/Desktop/openSource/AwesomeProject/node_modules/react-native-carplay/android/src/main/AndroidManifestNew.xml:10:5-25:15
+14            android:name="org.birkir.carplay.CarPlayService"
+14-->/Users/ritesh.shukla2/Desktop/openSource/AwesomeProject/node_modules/react-native-carplay/android/src/main/AndroidManifestNew.xml:11:7-37
+15            android:exported="true" >
+15-->/Users/ritesh.shukla2/Desktop/openSource/AwesomeProject/node_modules/react-native-carplay/android/src/main/AndroidManifestNew.xml:12:7-30
+16            <intent-filter>
+16-->/Users/ritesh.shukla2/Desktop/openSource/AwesomeProject/node_modules/react-native-carplay/android/src/main/AndroidManifestNew.xml:13:7-15:23
+17                <action android:name="org.birkir.carplay.APP_RELOAD" />
+17-->/Users/ritesh.shukla2/Desktop/openSource/AwesomeProject/node_modules/react-native-carplay/android/src/main/AndroidManifestNew.xml:14:9-64
+17-->/Users/ritesh.shukla2/Desktop/openSource/AwesomeProject/node_modules/react-native-carplay/android/src/main/AndroidManifestNew.xml:14:17-61
+18            </intent-filter>
+19            <intent-filter>
+19-->/Users/ritesh.shukla2/Desktop/openSource/AwesomeProject/node_modules/react-native-carplay/android/src/main/AndroidManifestNew.xml:16:7-19:23
+20                <action android:name="androidx.car.app.CarAppService" />
+20-->/Users/ritesh.shukla2/Desktop/openSource/AwesomeProject/node_modules/react-native-carplay/android/src/main/AndroidManifestNew.xml:17:9-65
+20-->/Users/ritesh.shukla2/Desktop/openSource/AwesomeProject/node_modules/react-native-carplay/android/src/main/AndroidManifestNew.xml:17:17-62
+21
+22                <category android:name="androidx.car.app.category.NAVIGATION" />
+22-->/Users/ritesh.shukla2/Desktop/openSource/AwesomeProject/node_modules/react-native-carplay/android/src/main/AndroidManifestNew.xml:18:9-73
+22-->/Users/ritesh.shukla2/Desktop/openSource/AwesomeProject/node_modules/react-native-carplay/android/src/main/AndroidManifestNew.xml:18:19-70
+23            </intent-filter>
+24            <intent-filter>
+24-->/Users/ritesh.shukla2/Desktop/openSource/AwesomeProject/node_modules/react-native-carplay/android/src/main/AndroidManifestNew.xml:20:7-24:23
+25                <action android:name="androidx.car.app.action.NAVIGATE" />
+25-->/Users/ritesh.shukla2/Desktop/openSource/AwesomeProject/node_modules/react-native-carplay/android/src/main/AndroidManifestNew.xml:21:9-67
+25-->/Users/ritesh.shukla2/Desktop/openSource/AwesomeProject/node_modules/react-native-carplay/android/src/main/AndroidManifestNew.xml:21:17-64
+26
+27                <category android:name="android.intent.category.DEFAULT" />
+27-->/Users/ritesh.shukla2/Desktop/openSource/AwesomeProject/node_modules/react-native-carplay/android/src/main/AndroidManifestNew.xml:22:9-67
+27-->/Users/ritesh.shukla2/Desktop/openSource/AwesomeProject/node_modules/react-native-carplay/android/src/main/AndroidManifestNew.xml:22:19-65
+28
+29                <data android:scheme="geo" />
+29-->/Users/ritesh.shukla2/Desktop/openSource/AwesomeProject/node_modules/react-native-carplay/android/src/main/AndroidManifestNew.xml:23:9-38
+29-->/Users/ritesh.shukla2/Desktop/openSource/AwesomeProject/node_modules/react-native-carplay/android/src/main/AndroidManifestNew.xml:23:15-35
+30            </intent-filter>
+31        </service>
+32
+33        <meta-data
+33-->/Users/ritesh.shukla2/Desktop/openSource/AwesomeProject/node_modules/react-native-carplay/android/src/main/AndroidManifestNew.xml:26:5-28:27
+34            android:name="androidx.car.app.minCarApiLevel"
+34-->/Users/ritesh.shukla2/Desktop/openSource/AwesomeProject/node_modules/react-native-carplay/android/src/main/AndroidManifestNew.xml:27:7-53
+35            android:value="1" />
+35-->/Users/ritesh.shukla2/Desktop/openSource/AwesomeProject/node_modules/react-native-carplay/android/src/main/AndroidManifestNew.xml:28:7-24
+36    </application>
+37
+38</manifest>
